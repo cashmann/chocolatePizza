@@ -7,9 +7,10 @@ header{
   height: 60px;
 }
 
-header img{
+header .logo{
   float: left;
   display: inline-block;
+  margin-right: 10px;
 }
 
 header nav{
@@ -45,8 +46,14 @@ header h5{
 }
 
 .divider{
-  height: 5px;
-  background-image: url(/img/border-back.jpg);
+  height: 10px;
+  background: repeating-linear-gradient(
+    45deg,
+    white,
+    #ccc 2px,
+    #666 2px,
+    #666 2px
+  );;
 }
 
 section{
@@ -69,9 +76,9 @@ section img{
 }
 
 
-nav img{
+.vanessa img{
   display: inline;
-  margin-top: -15;
+  margin-top: 10px;
 }
 
 .van {
@@ -98,14 +105,30 @@ form{
   padding: 35px 40px;
 }
 
+fieldset{
+  width: 50%;
+}
+
+fieldset ul{
+  width: 100%;
+}
+
 fieldset:first-of-type{
   float: right;
 }
 
+input{
+  display: inline-block;
+}
+
 label{
-  display: block;
+  display: inline-block;
   line-height: 1.9;
 
+}
+
+input[type=checkbox]:checked + label{
+  text-decoration: line-through;
 }
 
 footer p {
