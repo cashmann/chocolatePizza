@@ -1,6 +1,6 @@
 .publishing {
   text-align: center;
-  margin-left: 8%;
+
   font-size: 10px
 }
 .bottom {
@@ -21,4 +21,7 @@ button {
   font-size: 11px;
   width: 120px;
   float: top;
+}
+van-pic.png {
+  border: solid;
 }
