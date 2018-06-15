@@ -44,6 +44,7 @@ header h5{
   font-size: .5em;
 }
 
+
 .divider{
   height: 5px;
   background-image: url(/img/border-back.jpg);
@@ -62,6 +63,22 @@ section h3{
   font-size: .75em;
   font-weight: 600;
   color: #b9b9b9;
+}
+
+.print-icon {
+  margin-left: 94%;
+  margin-bottom: -10px;
+  
+}
+
+.print {
+  border: white ;
+  text-transform: capitalize;
+  font-size: .5em;
+  font-weight: 600;
+  color: #b9b9b9;
+  float: right;
+  margin-bottom: -10;
 }
 
 section img{
@@ -144,7 +161,7 @@ hr{
   z-index: 5;
 }
 
-button {
+.share {
   border: solid 1px;
   background-color: rgba(173, 58, 16, 0.849);
   color: white;
