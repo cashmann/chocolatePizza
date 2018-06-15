@@ -71,12 +71,20 @@ section img{
 
 nav img{
   display: inline;
+  margin-top: -15;
 }
 
 .van {
   box-align: left;
   margin-left:10%;
   float: top;
+
+  margin-top: -7%;
+  margin-bottom: 1%;
+  font-style: initial;
+  font-size: 90%
+
+
 }
 
 article p {
@@ -101,14 +109,17 @@ label{
 }
 
 footer p {
-  margin-left: 10%
+  font-size: 90%;
+  letter-spacing: 1;
+  margin-left: 10%;
+  
 }
 
 .publishing {
   display: block;
   margin: 0 auto;
   text-align: center;
-
+  margin-left: -40px;
   font-size: 10px
 }
 .bottom {
@@ -137,12 +148,12 @@ button {
   border: solid 1px;
   background-color: rgba(173, 58, 16, 0.849);
   color: white;
-
-  padding: 12px;
+  
+  padding: 18px;
   float: right;
-  font-size: 11px;
+  font-size: 12px;
   width: 120px;
   float: top;
-
-  line-height: 10%
+  margin-top: -4%;
+  line-height: 10%;
 }
