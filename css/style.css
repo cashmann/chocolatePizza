@@ -65,6 +65,7 @@ section img{
   margin: 20px 0;
 }
 
+
 nav img{
   display: inline;
 }
@@ -74,6 +75,26 @@ nav img{
   margin-left:10%;
   float: top;
   font-style: 
+
+article p {
+  text-indent: 1em;
+  font-size: 1.225em;
+  margin-bottom: 30px;
+}
+
+form{
+  background-image: url(/img/list-bg.png);
+  padding: 35px 40px;
+}
+
+fieldset:first-of-type{
+  float: right;
+}
+
+label{
+  display: block;
+  line-height: 1.9;
+
 }
 
 footer p {
@@ -104,5 +125,6 @@ button {
   font-size: 11px;
   width: 120px;
   float: top;
+
   line-height: 10%
 }
