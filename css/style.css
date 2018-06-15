@@ -1,3 +1,74 @@
+body {
+  width: 901px;
+  margin: 0 auto;
+}
+
+header{
+  height: 60px;
+}
+
+header img{
+  float: left;
+  display: inline-block;
+}
+
+header nav{
+  float: right;
+}
+
+nav ul{
+  display: inline-block;
+  vertical-align: middle;
+  height: 45px;
+}
+
+nav ul li{
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+}
+
+li a{
+  display: block;
+}
+
+header h4{
+  font-family: cursive;
+  font-size: 2em;
+  font-style: italic;
+  font-weight: 800;
+}
+
+header h5{
+  text-transform: capitalize;
+  font-size: .5em;
+}
+
+.divider{
+  height: 5px;
+  background-image: url(/img/border-back.jpg);
+  margin-bottom: 30px;
+}
+
+section h1 {
+  font-size: 1.5em;
+  font-weight: 800;
+}
+
+section h3{
+  font-size: .75em;
+  font-weight: 600;
+  color: #b9b9b9;
+}
+
+section img{
+  margin: 20px 0;
+}
+
+
+
+
+
 .publishing {
   text-align: center;
 }
