@@ -65,6 +65,17 @@ section img{
   margin: 20px 0;
 }
 
+
+nav img{
+  display: inline;
+}
+
+.van {
+  box-align: left;
+  margin-left:10%;
+  float: top;
+  font-style: 
+
 article p {
   text-indent: 1em;
   font-size: 1.225em;
@@ -83,9 +94,12 @@ fieldset:first-of-type{
 label{
   display: block;
   line-height: 1.9;
+
 }
 
-
+footer p {
+  margin-left: 10%
+}
 
 .publishing {
   text-align: center;
@@ -94,11 +108,11 @@ label{
 }
 .bottom {
   border: 1px;
-  display: inline-block;
   border-bottom-style: dotted;
   border-color: grey; 
-  margin-left: 50%;
+  float: center;
   margin-bottom: 10px;
+  margin-top: 5%
 
 }
 button {
@@ -112,4 +126,5 @@ button {
   width: 120px;
   float: top;
 
+  line-height: 10%
 }
